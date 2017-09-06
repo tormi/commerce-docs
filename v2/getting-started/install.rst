@@ -7,7 +7,7 @@ Installing
 Requirements
 ------------
 
-Commerce 2.x requires Drupal 8.2.0 or newer.
+Commerce 2.x requires Drupal 8.3.0 or newer.
 
 If you already have a web server, make sure it satisfies `Drupal 8’s requirements`_.
 The recommended memory limit is 256MB or more. For local development we recommend
@@ -45,15 +45,6 @@ Existing site
 
 Run these commands in the root of your website:
 
-Ensure the Drupal Packagist repository
-######################################
-
-This allows Composer to find Commerce and the other Drupal modules.
-
-.. code-block:: terminal
-
-    composer config repositories.drupal composer https://packages.drupal.org/8
-
 Download Commerce
 #################
 
@@ -69,7 +60,7 @@ Enable Commerce (instructions below use `Drupal Console`_)
 
 .. code-block:: terminal
 
-    drupal module:install commerce_product commerce_checkout commerce_cart commerce_tax
+    drupal module:install commerce_product commerce_checkout commerce_cart
 
 .. _Drupal 8’s requirements: https://www.drupal.org/requirements
 .. _Drupal VM: http://www.drupalvm.com/
