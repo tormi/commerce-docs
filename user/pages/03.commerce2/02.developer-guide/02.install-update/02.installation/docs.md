@@ -8,7 +8,7 @@ taxonomy:
 
 Requirements
 
- -Commerce 2.x requires Drupal 8.4.0 or newer.
+ -Commerce 2.x requires Drupal 8.5.0 or newer.
 
  If you already have a web server, make sure it satisfies [Drupal 8’s requirements].
  The recommended memory limit is 256MB or more. For local development we recommend
